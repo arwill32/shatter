@@ -1443,7 +1443,7 @@ GameObject:
   - component: {fileID: 2371136271847361260}
   - component: {fileID: 349234697720755566}
   m_Layer: 8
-  m_Name: GlassSoundsCharacter
+  m_Name: GlassSoundsCharacter1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

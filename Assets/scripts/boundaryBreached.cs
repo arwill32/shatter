@@ -6,6 +6,7 @@ public class boundaryBreached : MonoBehaviour
 {
     public GameObject shard;
     public Animation Animation;
+    public string animName;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +24,8 @@ public class boundaryBreached : MonoBehaviour
         Debug.Log("floor contact");
         if (other.CompareTag("GameController") == true)
         {
-            Debug.Log("gather playing");
-            Animation.Play("gather");
+            Debug.Log("animation playing");
+            Animation.Play(animName);
         }
     }
 }

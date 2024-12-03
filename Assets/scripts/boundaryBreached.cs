@@ -19,6 +19,7 @@ public class boundaryBreached : MonoBehaviour
         
     }
 
+    
     public void OnTriggerEnter(Collider other)
     {
         Debug.Log("floor contact");

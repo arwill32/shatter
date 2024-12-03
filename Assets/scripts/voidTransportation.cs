@@ -22,7 +22,10 @@ public class voidTransportation : MonoBehaviour
     {
         
     }
+    public void OnCollisionEnter(Collision collision)
+    {
 
+    }
     public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("shards") && shardCount < numShards)
@@ -31,11 +34,7 @@ public class voidTransportation : MonoBehaviour
             Debug.Log(shardCount);
         }
 
-        if (other.CompareTag("GameController") && shardCount >= numShards)
-        {
-            Debug.Log("next env");
-            SceneManager.LoadScene(nextEnv);
-        }
+      
 
 
     }
